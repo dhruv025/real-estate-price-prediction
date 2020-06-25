@@ -1,0 +1,12 @@
+h2 {
+  text-align: center;
+}
+.pred{
+    text-align: center;
+}
+.img{
+    background-image: url('house.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} 

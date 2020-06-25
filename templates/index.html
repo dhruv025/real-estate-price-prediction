@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <title>ML API</title>
+    <link href="{{ url_for('static', filename='index.css') }}" rel="stylesheet">
+</head>
+    <body class="img" style="background-color:powderblue;">
+        <h2 style="color:blue;">Banglore House Price Prediction<h2>
+        <!--<h2>This WebApp is used to predict the house prices of various locations in Banglore city.</h2>-->
+        <br>
+        <div class="pred">
+            <form action="/predict" method="post">
+            <input type="text" style="height:40px" id="location" name="location" placeholder="Enter Location" >
+            <br>
+            <br>
+            <input type="float" style="height:40px" id="area" name="area" placeholder="Enter Area(in sqft)">
+            <br>
+            <br>
+            <input type="text" style="height:40px" id="bhk" name="bhk" placeholder="Enter BHK">
+            <br>
+            <br>
+            <input type="text" style="height:40px" id="bath" name="bath" placeholder="Enter Bathrooms">
+            <br>
+            <br>
+            <button type="submit" style="height:40px" class="btn btn-primary btn-block btn-large">Predict Price</button>
+        </form>
+        <br>
+        <br>
+        {{ result }}
+        </div>
+    </body>
+</html>
