@@ -1,3 +1,2 @@
 # Real Estate Price Prediction
-In this, we have given certain locations of banglore city we have to predict the price of each location using machine learning.
-Also, deployed the machine learning model on Heroku using Flask
+In this project, I have created a Real Estate Price Prediction model which will predict the price of any given location using machine learning. For this, I have used LinearRegression and  DecisionTreeRegressor. Also, deployed the machine learning model on Heroku using Flask
